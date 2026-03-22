@@ -1,4 +1,4 @@
-const BOT_TOKEN = process.env.BOT_TOKEN;
+const BOT_TOKEN = process.env.BOT_TOKEN || "8692777817:AAGaZzuo2-ygDGC6_mocXXaSVPgCGrpKbqc';
 const WEBAPP_URL = process.env.WEBAPP_URL || "https://zesty-cupcake-569a17.netlify.app";
 const API = `https://api.telegram.org/bot${BOT_TOKEN}`;
 
